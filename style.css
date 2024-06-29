@@ -107,7 +107,7 @@ body {
 
 .homepage-content {
   color: #01438a;
-  font-weight: bold;
+  
 }
 
 .homepage-content p {
@@ -281,7 +281,7 @@ body {
   color: rgb(99, 208, 252);
   font-size: 0.9rem;
   margin-right: 50px;
-  font-weight: bold;
+ 
   display: flex;
   text-decoration: none;
   margin-top: 50px;
@@ -296,7 +296,7 @@ body {
   color: rgb(99, 208, 252);
   font-size: 0.9rem;
   margin-right: 50px;
-  font-weight: bold;
+  
   display: flex;
   text-decoration: none;
 
