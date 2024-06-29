@@ -122,6 +122,7 @@ body {
 .homepage-content .btn {
   background-color: #01438a;
   color: #fff;
+  padding: 10px 30px;
 }
 .homepage-content .btn:hover{
   background-color: #fff;
@@ -240,6 +241,7 @@ body {
 .bed-content .btn {
   background-color: #01438a;
   color: #fff;
+  padding: 10px 30px;
 }
 
 .bed-content .btn:hover{
@@ -267,7 +269,7 @@ body {
   color: #006FDE;
   text-align: center;
   margin-bottom: 30px;
-  font-weight: bold;
+  
 }
 .catalogues-img img {
   width: 80%;
@@ -327,7 +329,7 @@ body {
 .hand {
   background-color: #F0F6FB;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
 }
 .hand-text h3 {
   color: #006FDE;
@@ -351,7 +353,7 @@ body {
   color: #75A5D6;
 }
 .hand-text button {
-  padding: 10px 20px;
+  padding: 10px 30px;
    border: 1px solid #cbe5ff;
   background-color: #fff;
   color: #75A5D6;
@@ -377,7 +379,7 @@ body {
 /* injury */
 .injury {
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .injury h2 {
   color: #006FDE;
@@ -394,6 +396,7 @@ body {
 
 .injury-img img {
   width: 100%;
+   margin-top: 20px;
 }
 .injury-text h4 {
   color: #01438a;
@@ -408,13 +411,14 @@ body {
  
 }
 .injury-text .btn {
-  padding: 10px 10px;
+  padding: 15px 30px;
   border: none;
   background-color: #01438a;
   color: #fff;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 0px;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
 }
 
 .injury-text .btn:hover{
@@ -428,7 +432,7 @@ body {
 .latestnews h2 {
   color: #006FDE;
   margin-bottom: 30px;
-  font-weight: bold;
+ 
   margin-left: 120px;
 }
 
@@ -436,12 +440,13 @@ body {
   margin-top: 30px;
   font-size: 1rem;
   color: #006FDE;
+  
 }
 
 .latestnews-text h4 {
   color: #01438a;
   margin-top: 20px;
-  font-weight: bold;
+  
   font-size: 1.5rem;
 }
 .latestnews-text p {
@@ -450,18 +455,18 @@ body {
   margin-right: 50px;
   
 }
-.latestnews .latestnews-text a {
-  font-weight: bold;
-}
+
 /* stay */
 .stay {
-  background: linear-gradient(100.55deg, #cbe5ff -0.29%, #f0f6fb 100.13%);
+
   padding: 40px;
+  background: #F0F6FB;
   margin-top: 30px;
+  padding-bottom: 60px;
 }
 .stay-text h4 {
   color: #006FDE;
-  margin-top: 20px;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -475,11 +480,11 @@ body {
   margin-top: 50px;
 }
 .stay-input input {
-  width: 50%;
+  width: 70%;
   background-color: #fff;
   margin-right: 10px;
   border: none;
-  padding: 10px 0px;
+  padding: 12px 0px;
  border: 1px solid #cbe5ff;
 }
 
@@ -487,7 +492,7 @@ body {
  color:#75A5D6;
 }
 .stay-input .btn {
-  padding: 10px 20px;
+  padding: 12px 30px;
   background-color: #01438a;
   color: #fff;
   border: none;
@@ -513,6 +518,7 @@ body {
 }
 .do-text i {
    color: #006FDE;
+   margin-bottom: 20px;
 }
 .do-text p {
   color: #000;
@@ -622,6 +628,7 @@ body {
 .footer {
   background-color: #ecf4fd;
   padding-top: 10px;
+  padding-bottom: 50px;
 }
 .footertext {
   display: flex;
