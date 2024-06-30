@@ -103,10 +103,16 @@ body {
 .homepage {
   background: linear-gradient(100.55deg, #cbe5ff -0.29%, #f0f6fb 100.13%);
   padding-bottom: 20px;
+  
 }
-
+.homepage-content h1{
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .homepage-content {
   color: #01438a;
+    
   
 }
 
@@ -147,9 +153,12 @@ body {
 }
 .specialist h2 {
   text-align: center;
-  color: #01438a;
+ 
   margin-bottom: 30px;
   font-weight: bold;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .specialist-img img {
   width: 80%;
@@ -266,9 +275,12 @@ body {
   color: #006FDE;
 }
 .catalogues h2 {
-  color: #006FDE;
   text-align: center;
   margin-bottom: 30px;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
   
 }
 .catalogues-img img {
@@ -332,10 +344,13 @@ body {
   padding-bottom: 90px;
 }
 .hand-text h3 {
-  color: #006FDE;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-top: 20px;
   font-weight: bold;
   font-size: 2rem;
+  
 }
 .hand-text p {
   color: #01438a;
@@ -382,10 +397,13 @@ body {
   margin-bottom: 80px;
 }
 .injury h2 {
-  color: #006FDE;
+ 
   margin-bottom: 30px;
   font-weight: bold;
   margin-left: 120px;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .injury a {
@@ -430,9 +448,11 @@ body {
 /* latest news */
 
 .latestnews h2 {
-  color: #006FDE;
+  
   margin-bottom: 30px;
- 
+ background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-left: 120px;
 }
 
@@ -465,10 +485,12 @@ body {
   padding-bottom: 60px;
 }
 .stay-text h4 {
-  color: #006FDE;
   margin-top: 30px;
   font-weight: bold;
   font-size: 1.5rem;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .stay-text p {
   color: #000;
@@ -513,7 +535,6 @@ body {
  color: #006FDE;
   margin-bottom: 30px;
   font-weight: bold;
- 
   text-align: center;
 }
 .do-text i {
@@ -568,7 +589,9 @@ body {
 
 }
 .info-text h4 {
-  color: #01438a;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-top: 20px;
   font-weight: bold;
   font-size: 1.5rem;
