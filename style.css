@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand%3Awght%40300%3B400%3B500%3B600%3B700&display=swap");
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -231,6 +236,9 @@ body {
 .bed-content h1 {
   font-size: 1.3rem;
   font-weight: bold;
+   background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .bed-content .p1 {
   
