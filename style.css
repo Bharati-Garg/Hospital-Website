@@ -26,6 +26,9 @@ body {
 .top {
   background: #01438a;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top .p {
@@ -33,35 +36,42 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  margin-top: 10px;
+  margin-top:10px;
 }
 
 .top .p img {
   height: 30px;
+  
 }
 
 .top .p p {
   margin-left: 20px;
-  font-weight: bold;
+  color: #CBE5FF;
 }
 
 .top .icon {
-  color: #fff;
+line-height: 16.94px;
+text-align: left;
+color: #CBE5FF;
+display: flex;
+margin-top:0px;
 }
 
-.fa-phone-alt {
-  margin-right: 60px;
-  margin-left: 60px;
+.top .icon p{
+  margin-right: 50px;
+  margin-top: 10px;
 }
 
-.top button {
-  margin-top: 5px;
-  margin-left: 10px;
+.top .icon i{
+  margin-right: 10px;
+}
+.top-header-button {
   background-color: #fff;
-  color: #000;
-  padding: 5px 20px;
-  border-radius: 5px;
+  color: #002B64;
+  padding: 0px 20px;
+  border-radius: 3px;
   border: none;
+  font-weight: 400;
 }
 
 /* navbar */
@@ -124,6 +134,7 @@ body {
   background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .homepage-content {
@@ -170,9 +181,11 @@ body {
 
 .specialist h2 {
   text-align: center;
-  color: #01438a;
   margin-bottom: 30px;
   font-weight: bold;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .specialist-img img {
@@ -182,7 +195,7 @@ body {
 .specialist-text h4 {
   margin-top: 20px;
   font-weight: bold;
-  color: #006FDE;
+  color: #002B64;
 }
 
 .specialist-text p {
@@ -198,9 +211,11 @@ body {
 
 .services h2 {
   text-align: center;
-  color: #01438a;
   margin-bottom: 30px;
   font-weight: bold;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .services .box {
@@ -226,11 +241,15 @@ body {
   text-align: center;
   font-weight: bold;
   margin-top: 30px;
-  color: #01438a;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .brand a {
-  font-size: 1rem;
+  font-size: .9rem;
+  color: #006FDE;
+  border-bottom: 1px solid #CBE5FF;
 }
 
 .our-brand-slider {
@@ -248,10 +267,11 @@ body {
   color: #01438a;
   margin-right: 50px;
   margin-bottom: 60px;
+  margin-left: 20px;
 }
 
 .bed-content h1 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: bold;
   background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
   background-clip: text;
@@ -259,7 +279,7 @@ body {
 }
 
 .bed-content .p1 {
-  font-size: 1rem;
+  font-size: .8rem;
   color: #006FDE;
 }
 
@@ -268,9 +288,7 @@ body {
 }
 
 .bed-img {
-  width: 350px;
-  height: 150px;
-  margin-top: 30px;
+  width: 100%;
 }
 
 .bed-content .btn {
@@ -291,7 +309,9 @@ body {
   margin-top: 150px;
   margin-left: 10px;
 }
-
+.bed hr{
+  border: 1px solid #BFD4E5
+}
 /* catalouge */
 .catalogues {
   background-color: #F0F6FB;
@@ -299,12 +319,21 @@ body {
 
 .catalogues a {
   margin-top: 30px;
-  font-size: 1rem;
+  font-size: .9rem;
   color: #006FDE;
+;
+}
+
+.catalogues h2 a {
+   color: #01438A;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: .9rem;
+  border-bottom: 1px solid #CBE5FF;
 }
 
 .catalogues h2 {
-  text-align: center;
+   margin-left: 120px;
   margin-bottom: 30px;
   background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
   background-clip: text;
@@ -324,7 +353,6 @@ body {
 }
 
 .catalogues-text a {
-  color: #63d0fc;
   font-size: 0.9rem;
   margin-right: 50px;
   display: -webkit-box;
@@ -332,6 +360,7 @@ body {
   display: flex;
   text-decoration: none;
   margin-top: 50px;
+  color: #006FDE;
 }
 
 .catalogues-text2 h4 {
@@ -342,13 +371,13 @@ body {
 }
 
 .catalogues-text2 a {
-  color: #63d0fc;
   font-size: 0.9rem;
   margin-right: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-decoration: none;
+  color: #006FDE;
 }
 
 .catalogues-text a img {
@@ -374,14 +403,18 @@ body {
   margin-left: 280px;
   margin-top: -30px;
 }
-
+.catalogues hr{
+  border: 1px solid #BFD4E5
+}
 /* hand */
 .hand {
   background-color: #F0F6FB;
   padding-top: 30px;
   padding-bottom: 90px;
 }
-
+.hand-text{
+  margin-left: 30px;
+}
 .hand-text h3 {
   background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
   background-clip: text;
@@ -395,6 +428,7 @@ body {
   color: #01438a;
   font-size: 0.9rem;
   margin-right: 50px;
+  font-weight: 400;
 }
 
 .hand-text input {
@@ -407,25 +441,30 @@ body {
 
 .hand-text input::-webkit-input-placeholder {
   color: #75A5D6;
+  font-weight: 500;
 }
 
 .hand-text input:-ms-input-placeholder {
   color: #75A5D6;
+   font-weight: 500;
 }
 
 .hand-text input::-ms-input-placeholder {
   color: #75A5D6;
+   font-weight: 500;
 }
 
 .hand-text input::placeholder {
   color: #75A5D6;
+   font-weight: 500;
 }
 
 .hand-text button {
   padding: 10px 30px;
   border: 1px solid #cbe5ff;
   background-color: #fff;
-  color: #75A5D6;
+  font-weight: 500;
+  color: #01438A;
   margin-left: 20px;
   -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
           box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
@@ -436,7 +475,7 @@ body {
   border: none;
   background-color: #01438a;
   color: #fff;
-  font-weight: bold;
+  font-weight: 400;
   margin-left: 20px;
   -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
           box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
@@ -453,12 +492,11 @@ body {
 /* injury */
 .injury {
   margin-top: 30px;
-  margin-bottom: 80px;
 }
 
 .injury h2 {
   margin-bottom: 30px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 120px;
   background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
   background-clip: text;
@@ -467,17 +505,25 @@ body {
 
 .injury a {
   margin-top: 30px;
-  font-size: 1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-left: 30px;
   color: #006FDE;
+border-bottom: 1px solid #006FDE
 }
 
 .injury-img img {
   width: 100%;
   margin-top: 20px;
 }
-
+.injury-text{
+  margin-left: 40px;
+}
 .injury-text h4 {
-  color: #01438a;
+   background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-top: 20px;
   font-weight: bold;
   font-size: 1.5rem;
@@ -508,7 +554,10 @@ body {
   -webkit-transition: linear 1s ease-in;
   transition: linear 1s ease-in;
 }
-
+.injury hr{
+  border: 1px solid #006FDE;
+  margin-top: 80px;
+}
 /* latest news */
 .latestnews h2 {
   margin-bottom: 30px;
@@ -516,26 +565,39 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: 120px;
+  font-weight: 700;
+}
+.latestnews h2 a{
+margin-left: 30px;
+border-bottom: 1px solid #006FDE;
 }
 
 .latestnews a {
   margin-top: 30px;
-  font-size: 1rem;
+  font-size: .9rem;
   color: #006FDE;
+  font-weight: 400;
 }
 
 .latestnews-text h4 {
-  color: #01438a;
   margin-top: 20px;
   font-size: 1.5rem;
+  font-weight: 700;
+  color: #01438A;
+
 }
 
 .latestnews-text p {
   color: #000;
   font-size: 0.9rem;
   margin-right: 50px;
+  font-weight: 400;
 }
-
+.latestnews-text a{
+  color: #006FDE;
+text-decoration: none;
+font-weight: 500;
+}
 /* stay */
 .stay {
   padding: 40px;
@@ -609,7 +671,9 @@ body {
 }
 
 .do h2 {
-  color: #006FDE;
+  background: linear-gradient(100.55deg, #006FDE -0.29%, #002B64 100.13%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 30px;
   font-weight: bold;
   text-align: center;
@@ -624,14 +688,18 @@ body {
   color: #000;
   font-size: 0.9rem;
   margin-right: 50px;
+  font-weight: 400;
 }
 
 .do-text .p {
   color: #75a5d6;
   font-size: 0.9rem;
   margin-right: 50px;
+  font-weight: 400;
 }
-
+.do hr{
+  border: 1px solid #CBE5FF;
+}
 /* image */
 .images {
   margin-top: 30px;
@@ -678,18 +746,22 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 20px;
-  font-weight: bold;
-  font-size: 1.5rem;
+font-size: 15px;
+font-weight: 700;
+line-height: 18.15px;
+text-align: left;
+
 }
 
-.info-text a {
+.info .info-text a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #000;
-  font-size: 0.9rem;
+  font-size: .8rem;
   margin-right: 0px;
   text-decoration: none;
+  color: #4B4B4B;
+  font-weight: 400;
 }
 
 .info-text a {
@@ -700,9 +772,14 @@ body {
   margin-top: 20px;
 }
 
-.info-text .contact {
-  color: #006FDE;
+ .info-text a.contact {
   margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #006FDE;
+  border-bottom: 1px solid #C3DCF2;
 }
 
 /* location */
@@ -716,16 +793,20 @@ body {
 }
 
 .location-text h4 {
+font-size: 14px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
   color: #006FDE;
   margin-top: 20px;
-  font-size: 1.5rem;
 }
 
 .location-text a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #000;
+  font-weight: 400;
+  color: #4B4B4B;
   font-size: 0.8rem;
   margin-right: 0px;
   text-decoration: none;
@@ -738,7 +819,7 @@ body {
 }
 
 .text p {
-  color: #000;
+  color:#4B4B4B;
   font-size: 0.9rem;
   margin-right: 50px;
 }
