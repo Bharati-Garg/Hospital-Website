@@ -65,6 +65,13 @@ margin-top:0px;
 .top .icon i{
   margin-right: 10px;
 }
+.top-btn{
+  line-height: 16.94px;
+text-align: left;
+color: #CBE5FF;
+display: flex;
+margin-top:0px;
+}
 .top-header-button {
   background-color: #fff;
   color: #002B64;
@@ -254,8 +261,11 @@ margin-top:0px;
 
 .our-brand-slider {
   background-color: #fff;
+  
 }
-
+ .swiper .our-brand .swiper-wrapper .swiper-slide{
+transition: all 1s ease-in-out;
+}
 /* bed */
 .bed {
   padding-bottom: 10px;

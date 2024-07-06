@@ -312,14 +312,36 @@
   }
 }
 @media (max-width: 400px) {
+  
   .top .p p {
     margin-left: 10px;
   }
-  .fa-phone-alt {
-    margin-right: 0px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+  .top .icon p{
+    display: flex;
+   
   }
+.top .icon {
+font-size: .8rem;
+}
+
+.top .icon i{
+  margin-right:5px;
+  margin-top: 2px;
+}
+.top .icon p{
+  text-wrap: nowrap;
+}
+.icon .top-btn{
+  display: block;
+  flex-direction: column;
+  display: inline;
+}
+
+.top-header-button {
+ padding: 5px;
+ text-wrap: nowrap;
+ display: none;
+}
 
   .specialist-img img {
     width: 100%;
